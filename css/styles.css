@@ -116,7 +116,7 @@ body {
   color: hsl(300, 69%, 71%);
 }
 
-@media (max-width: 1005px) {
+@media (max-width: 1055px) {
   .component-container {
     background-image: url("../images/bg-mobile.svg");
     background-position: initial;
