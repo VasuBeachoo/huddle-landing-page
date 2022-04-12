@@ -26,7 +26,7 @@ body {
   margin: 40px;
 }
 
-.left-section {
+.img-section {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
@@ -41,7 +41,7 @@ body {
   width: 550px;
 }
 
-.right-section {
+.text-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,7 +57,7 @@ body {
   font-weight: 400;
 }
 
-.right-section .heading-text {
+.text-section .heading-text {
   font-size: 35px;
   letter-spacing: -0.2px;
   width: 90%;
@@ -65,7 +65,7 @@ body {
   margin-top: auto;
 }
 
-.right-section .paragraph-text {
+.text-section .paragraph-text {
   font-size: 14.5px;
   letter-spacing: 0.5px;
   line-height: 22px;
@@ -78,6 +78,8 @@ body {
   width: 150px;
   height: 43px;
   color: hsl(257, 40%, 49%);
+  font-weight: 600;
+  letter-spacing: 0.2px;
   border-radius: 25px;
   border: 0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
@@ -112,4 +114,51 @@ body {
   cursor: pointer;
   border-color: hsl(300, 69%, 71%);
   color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 1005px) {
+  .component-container {
+    background-image: url("../images/bg-mobile.svg");
+    background-position: initial;
+  }
+
+  .component {
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+  }
+
+  .img-section {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .mockups-img {
+    align-self: center;
+    width: 400px;
+  }
+
+  .text-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-section .heading-text {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .text-section .paragraph-text {
+    width: 74%;
+    margin-bottom: 25px;
+  }
+
+  .register-btn {
+    width: 210px;
+    margin-bottom: 60px;
+  }
+
+  .social-media-icons {
+    align-self: center;
+  }
 }
