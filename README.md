@@ -32,3 +32,4 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS3
 - Flexbox
+- Font Awesome
